@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="css/bootstrap.css" rel="stylesheet"> 
+    <script src="js/bootstrap.bundle.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<style>
+div.Projects li {
+    padding-bottom: 5%;
+}
+</style>
+<!-- Top Nav Bar -->
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top border">
+    
+        <div class="container-fluid" style="font-size: large; font-weight: bold;">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#Home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#About">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+<!-- Home Section -->
+      <div id="Home" class="Home flex-wrap container-fluid bg-image text-white text-center" style="padding:100px 20px; background-image: url('WindowsXP.jpg'); background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover; height: 100vh;">
+        <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(0, 0, 0, 0.5);"></div>
+
+        <div class="position-absolute top-50 start-50 translate-middle text-white text-center border border-2 rounded-2 bg-primary bg-opacity-50">
+          <h1 class="display-1"><strong>Welcome to my Portfolio</strong></h1>
+          <p class="display-6"><strong>Made by: Syrus T. Cayanan</strong></p>
+        </div>
+
+        <div>
+            <a class="btn btn-lg btn-primary position-absolute bottom-0 start-50 translate-middle text-white text-center border" href="#Contact">Contact Me</a>
+        </div>
+      </div>
+
+    <div class="bg-dark text-white">
+      <div id="About" class="container-fluid border border-white border-5" style="padding:20px 20px;">
+          <h2 style="text-align: center;"><strong>About Me</strong></h2>
+          <div class="p-3">
+            <img src="images\This guy.jpg" alt="This WAS supposed to be me" class="img-fluid img-thumbnail mx-auto d-block" style="width: 20%; height: 20%">
+          </div>
+          
+          <div class="blockquote">
+            <blockquote>
+            <p class="text-center">Hello! My name is <strong class="text-info">Syrus T. Cayanan</strong></p>
+            <p class="text-center">I am a <strong class="text-info">Computer Science Student</strong> currently studying at the <strong class="text-success">City College of Angeles</strong> and I am currently in my <strong class="text-info">2nd Year</strong>. I like games and hope that one day, I'll be able to make games of my own. I also like dogs, cats, and mechs.</p>
+            </blockquote>
+          </div>
+      </div>
+<!-- Projects Section -->
+      <div id="Projects" class="Projects container-fluid p-3 border border-white border-5 ">
+        <h2 style="text-align: center;"><strong>Projects, Goals, and Achievements</strong></h2>
+          <ul>
+            <li style="font-weight: bold;">
+              <h4>Learning how to draw Mechs - <strong class="text-warning" >Work in Progress</strong></h4>
+              <img src="images\Progress.png" alt="Progress Mechas" class="img-fluid img-thumbnail rounded mx-auto d-block" style="width: 85%; height: 85%">
+            </li>
+            <li style="font-weight: bold;">
+              <h4>Figuring out how Game Development works - <strong class="text-danger">Postponed, will be continued this Summer</strong></h4>
+              <img src="images\MaybeProgress.png" alt="" class="img-fluid img-thumbnail rounded mx-auto d-block" style="width: 65%; height: 65%">
+            </li>
+            <li style="font-weight: bold;" >
+              <h4>This portfolio - <strong class="text-success">Complete but will be requiring improvements</strong></h4>
+              <img src="images\Portfolio Pic.png" alt="" class="img-fluid img-thumbnail rounded mx-auto d-block" style="width: 65%; height: 65%">
+            </li>
+          </ul>
+      </div>
+<!-- Skills Section -->
+      <div id="Skills" class="container-fluid border p-3 border border-white border-5 ">
+        <h2 style="text-align: center;"><strong>Skills</strong></h2>
+        <blockquote class="mx-auto" style="width: 450px;">
+          <ul>
+            <li style="font-weight: bold;">
+              <h4>Sufficient Programming Knowledge</h4>
+              <ul>
+                    <p class="mb-0" >C:</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped bg-info" style="width: 60%;">60%</div>
+                    </div>
+                    <p class="mb-0" >C#:</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped bg-warning" style="width: 37%;">37%</div>
+                    </div>
+                    <p class="mb-0" >HTML:</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped bg-info" style="width: 65%;">65%</div>
+                    </div>
+                    <p class="mb-0" >Java:</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped bg-primary" style="width: 71%;">71%</div>
+                    </div>
+                    <p class="mb-0" >MySQL:</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped bg-primary" style="width: 75%;">75%</div>
+                    </div>
+                    <p class="mb-0" >Python:</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped bg-primary" style="width: 79%;">79%</div>
+                    </div>
+              </ul>
+            </li>
+            <li style="font-weight: bold;"><h4>Arts Skills</h4></li>
+              <ul style="font-weight: bold;">
+                <p class="mb-0" >Anatomy:</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped bg-warning" style="width: 46%;">46%</div>
+                    </div>
+                <p class="mb-0" >Shapes:</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped bg-green" style="width: 90%;">90%</div>
+                    </div>
+                <p class="mb-0" >3D Drawing:</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped bg-info" style="width: 58%;">58%</div>
+                    </div>
+              </ul>
+            <li style="font-weight: bold;"><h4>Adequate Design Knowledge</h4></li>
+          </ul>
+        </blockquote>
+      </div>
+<!-- Contact Section -->
+      <div id="Contact" class="container-fluid p-3 border border-white border-5">
+        <h2 style="text-align: center;"><strong>Contact</strong></h2>
+        <div class="col-xxl-6 col-xl-7 col-lg-8 col-md-9 col-sm-10 col-11 mx-auto">
+          <form action="" class="text-white fs-6">
+              <div class="mb-3">
+                  <label class="form-label text-white"><strong>Name</strong></label>
+                  <input type="text" class="form-control">
+              </div>
+              <div class="mb-3">
+                  <label class="form-label text-white"><strong>Email</strong></label>
+                  <input type="email" class="form-control">
+              </div>
+              <div class="mb-3">
+                  <label class="form-label text-white"><strong>Subject</strong></label>
+                  <input type="text" class="form-control">
+              </div>
+              <div class="mb-3">
+                  <label class="form-label text-white"><strong>Message</strong></label>
+                  <textarea type="text" rows="10" class="form-control"></textarea>
+              </div>
+              <div class="d-grid gap-2 col-lg-4 col-md-4 mx-auto">
+                  <button class="btn btn-primary btn-lg rounded border"><strong>Send</strong></button>
+              </div>
+          </form>
+      </div>
+      <br>
+        <div class="mx-auto" style="width: 850px;">
+          <h4><strong>Other contacts:</strong></h4>
+          <h4 class="text-center"><a href="mailto:syruscayanan44@gmail.com"><img src="images\gmail1.png" alt="" class="rounded" style="width: 12%; height: 12%;"><strong></strong></a>
+          <a href="https://www.facebook.com/syrus.cayanan/" target="_blank"> <img src="images\fb2.png" alt="" class="rounded" style="width: 10%; height: 10%;"><strong></strong></a>
+          <a href="https://bsky.app/profile/onlykayman.bsky.social" target="_blank"><img src="images\bluesky.webp" alt="" class="rounded" style="width: 10%; height: 10%;"></a>
+          <a href="https://x.com/OnlyKayMan?t=LemrSyibupFGzSH8TC__Sg&s=07" target="_blank"><img src="images\twitter.webp" alt="" class="rounded" style="width: 10%; height: 10%;"></a>
+          <a href="https://www.instagram.com/theonlykayman?igsh=MXM5dHhoMGkyc3Fhcg%3D%3D" target="_blank"><img src="images\instagram.webp" alt="" class="rounded" style="width: 10%; height: 10%;"></a></h4>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <p class="container-fluid text-center">Copyright © 2025 @syruscayanan</p>
+    </div>
+    <div style="padding:100px 20px; background-image: url('WindowsXP.jpg'); background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover; height: 50px;background-color: rgba(0, 0, 0, 0.5);">
+      
+    </div>
+</body>
+</html>
